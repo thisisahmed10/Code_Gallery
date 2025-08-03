@@ -1,0 +1,102 @@
+
+body {
+  background: color #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+form {
+  width: 350px;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(192, 164, 179, 0.1);
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #ff2c61
+}
+
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  color: #000000;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #f5f5f5;
+  outline: none;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  border-radius: 6px;
+  background-color: #ff2c61;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+
+button span {
+  position: relative;
+  transition: padding-right 0.4s;
+}
+
+button span::after {
+  content: '»';
+  position: absolute;
+  right: -15px;
+  opacity: 0;
+  transition: opacity 0.4s, right 0.4s;
+}
+
+button:hover span {
+  padding-right: 20px;
+}
+
+button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
