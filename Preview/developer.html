@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Developer Profile</title>
+    <link rel="stylesheet" href="feed.css">
+    <link rel="icon" href="../logos/developer.png" type="image/png">
+</head>
+<body>
+    <header class="developer-header">
+        <div class="container">
+            <div class="developer-header-content">
+                <img id="developer-header-pic" src="../PFP/Ahmed.jpg" alt="Developer" class="developer-header-pic" draggable="false">
+                <div class="developer-header-info">
+                    <h1 id="developer-header-name">Developer Name</h1>
+                    <div class="developer-header-meta">
+                        <div class="developer-header-stat">
+                            <span class="developer-header-stat-label">Projects</span>
+                            <span id="developer-header-count" class="developer-header-stat-value">0</span>
+                        </div>
+                        <div class="developer-header-stat">
+                            <span class="developer-header-stat-label">Status</span>
+                            <span class="developer-header-stat-value">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div id="developer-feed-container" class="feed-container">
+                <div class="loading">Loading projects...</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="feedData.js"></script>
+    <script src="projectManager.js"></script>
+    <script src="developer.js"></script>
+</body>
+</html>
