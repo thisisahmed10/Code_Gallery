@@ -17,7 +17,7 @@ Code_Gallery is a responsive web application designed to elegantly display devel
 | Name           | GitHub Handle        |
 | :------------- | :------------------- |
 | Ahmed Hasan    | [@thisisahmed10](https://github.com/thisisahmed10) |
-| Manar Mahmoud  | [@manarsleem](https://github.com/manarsleem)   |
+| Manar Mostafa  | [@manarsleem](https://github.com/manarsleem)   |
 | Nermeen Nasser | [@NermeenNasser](https://github.com/NermeenNasser) |
 | Mohammad Sayed | [@mohamedsayed1904](https://github.com/mohamedsayed1904)     |
 
