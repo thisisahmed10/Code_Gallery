@@ -9,11 +9,12 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     localStorage.setItem("userData", JSON.stringify({ email, password }));
-    window.location.href = "../home/home.html?showPreview=true"; 
+    window.location.href = "../home/home.html?showPreview=true#"; 
   });
 
   
 });
+
 
 
 
