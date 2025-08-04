@@ -59,7 +59,7 @@ const feedData = [
         PFP: "../PFP/female.jpg",
         SourceCode: "https://github.com/manarsleem/Bacery-store",
         viewProject: "https://manarsleem.github.io/Bacery-store/",
-        developer: "Manar Mahmoud",
+        developer: "Manar Mostafa",
         date: "2025-7-25"
     },
     {
@@ -74,7 +74,7 @@ const feedData = [
         PFP: "../PFP/female.jpg",
         SourceCode: "https://github.com/manarsleem/library",
         viewProject: "https://manarsleem.github.io/library/",
-        developer: "Manar Mahmoud",
+        developer: "Manar Mostafa",
         date: "2025-7-25"
     },
     {
@@ -122,3 +122,4 @@ const feedData = [
         date: "2025-7-30"
     }
 ];
+
