@@ -23,9 +23,3 @@ function showContact() {
   document.getElementById('content').innerHTML = '<iframe src="../about/about.html#contact" width="100%" height="700px" frameborder="0"></iframe>';
 
 }
-
-function showFeed() {
-  document.querySelector('.background').style.display = 'none';
-  document.getElementById('content').innerHTML = '<iframe src="../feed/feed.html" width="100%" height="700px" frameborder="0"></iframe>';
-}
-
