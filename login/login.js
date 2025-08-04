@@ -8,12 +8,12 @@ window.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    
     localStorage.setItem("userData", JSON.stringify({ email, password }));
-    window.location.href = "../home/home.html?showFeed=true"; 
+    window.location.href = "../home/home.html?showPreview=true"; 
   });
 
   
 });
+
 
 
