@@ -10,9 +10,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
     
     localStorage.setItem("userData", JSON.stringify({ email, password }));
-    window.location.href = "nextPage.html"; 
+    window.location.href = "../home/home.html?showFeed=true"; 
   });
 
   
 });
+
 
